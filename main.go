@@ -35,7 +35,7 @@ const (
 func main() {
     home := homeDir()
 
-	var rootCmd = &cobra.Command{Use: "kinspect"}
+	var rootCmd = &cobra.Command{Use: "kpulse"}
 
     defaultKubeconfig := filepath.Join(home, ".kube", "config")
     rootCmd.PersistentFlags().StringVar(&kubeconfig, "kubeconfig", defaultKubeconfig, "Path to the kubeconfig file")
