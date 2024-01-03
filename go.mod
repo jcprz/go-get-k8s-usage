@@ -1,4 +1,4 @@
-module github.com/jcprz/kinspect
+module github.com/jcprz/kpulse
 
 go 1.20
 
